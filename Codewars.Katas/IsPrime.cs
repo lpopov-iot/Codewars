@@ -17,7 +17,7 @@ namespace Codewars.Katas
     }
     
     [TestFixture]
-    public class SolutionTest
+    public class IsPrimeTests
     {
         private static IEnumerable<TestCaseData> sampleTestCases    
         {
