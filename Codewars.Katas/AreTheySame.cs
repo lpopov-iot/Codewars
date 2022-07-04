@@ -2,7 +2,7 @@
 
 namespace Codewars.Katas
 {
-    public static class AreTheySame
+    public static class AreTheySameKata
     {
         public static bool comp(int[] a, int[] b)
         {
@@ -22,7 +22,7 @@ namespace Codewars.Katas
         public void Test1() {
             int[] a = new int[] {121, 144, 19, 161, 19, 144, 19, 11};
             int[] b = new int[] {11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19};
-            bool r = AreTheySame.comp(a, b);
+            bool r = AreTheySameKata.comp(a, b);
             Assert.AreEqual(true, r);
         }
         
@@ -30,7 +30,7 @@ namespace Codewars.Katas
         public void Test2() {
             int[] a = new int[] {};
             int[] b = new int[] {};
-            bool r = AreTheySame.comp(a, b);
+            bool r = AreTheySameKata.comp(a, b);
             Assert.AreEqual(false, r);
         }
         
@@ -38,7 +38,7 @@ namespace Codewars.Katas
         public void Test3() {
             int[] a = null;
             int[] b = null;
-            bool r = AreTheySame.comp(a, b);
+            bool r = AreTheySameKata.comp(a, b);
             Assert.AreEqual(false, r);
         }
     }
