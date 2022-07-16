@@ -1,7 +1,12 @@
-﻿using NUnit.Framework;
+﻿using System.Collections.Generic;
+using System.Linq;
+using NUnit.Framework;
 
 namespace Codewars.Katas
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/545cedaa9943f7fe7b000048
+    /// </summary>
     public static class DetectPangramKata
     {
         public static bool IsPangram(string str)

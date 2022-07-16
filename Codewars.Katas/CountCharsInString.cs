@@ -1,7 +1,11 @@
-﻿using NUnit.Framework;
+﻿using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace Codewars.Katas
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/52efefcbcdf57161d4000091
+    /// </summary>
     public static class CountCharsInStringKata
     {
         public static Dictionary<char, int> Count(string str)

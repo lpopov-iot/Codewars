@@ -1,7 +1,11 @@
-﻿using NUnit.Framework;
+﻿using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace Codewars.Katas
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/5262119038c0985a5b00029f
+    /// </summary>
     public static class IsPrimeKata
     {
         public static bool IsPrime(int n)

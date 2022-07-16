@@ -1,7 +1,12 @@
-﻿using NUnit.Framework;
+﻿using System.Collections.Generic;
+using System.Linq;
+using NUnit.Framework;
 
 namespace Codewars.Katas
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/550498447451fbbd7600041c
+    /// </summary>
     public static class AreTheySameKata
     {
         public static bool comp(int[] a, int[] b)

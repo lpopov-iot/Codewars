@@ -1,8 +1,12 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
+using System.Text;
 using NUnit.Framework;
 
 namespace Codewars.Katas
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/5208f99aee097e6552000148
+    /// </summary>
     public static class BreakCamelCaseKata
     {
         public static string BreakCamelCase(string str)

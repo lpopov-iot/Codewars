@@ -2,6 +2,9 @@
 
 namespace Codewars.Katas
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/514b92a657cdc65150000006/train/csharp
+    /// </summary>
     public static class MultiplesOf3Or5Kata
     {
         public static int Solution(int value)
